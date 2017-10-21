@@ -3,6 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5861B290-9832-410F-96FD-E02D6DE0ABD8}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deploystack", "deploystack", "{CAE32D0D-9EB6-4533-853F-B22799F3E87E}"
+	ProjectSection(SolutionItems) = preProject
+		deploystack\app.py = deploystack\app.py
+		deploystack\gunicorn.conf.py = deploystack\gunicorn.conf.py
+		deploystack\nginx.conf = deploystack\nginx.conf
+		deploystack\nginx.server.conf = deploystack\nginx.server.conf
+		deploystack\supervisord.conf = deploystack\supervisord.conf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
