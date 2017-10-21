@@ -1,4 +1,4 @@
-FROM python:alpine
+FROM python:3.6-alpine3.6
 MAINTAINER oliver@app-workshop.de
 
 # ARGs & ENVs
